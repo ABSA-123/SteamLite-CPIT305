@@ -1,0 +1,5 @@
+title=Pixel Dungeon X
+developer=Indie Works
+genre=Roguelike
+price=9.99
+description=A classic roguelike dungeon crawler with permadeath and procedural maps.

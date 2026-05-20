@@ -1,0 +1,119 @@
+[2026-05-19 17:26:03] [INFO ] [DatabaseManager] Connected to SQLite database.
+[2026-05-19 17:26:03] [INFO ] [DatabaseManager] Schema verified/created.
+[2026-05-19 17:26:03] [INFO ] [GameLoader] Seeded game: Shadow Realms
+[2026-05-19 17:26:03] [INFO ] [GameLoader] Seeded game: Turbo Racers 3D
+[2026-05-19 17:26:03] [INFO ] [GameLoader] Seeded game: Pixel Dungeon X
+[2026-05-19 17:26:03] [INFO ] [GameLoader] Seeded game: StarFleet Command
+[2026-05-19 17:26:03] [INFO ] [GameLoader] Loaded 4 game(s) from files.
+[2026-05-19 17:26:03] [INFO ] [GameServer] Server started on port 9090 | Thread pool size: 10
+[2026-05-19 17:26:03] [INFO ] [GameServer] Waiting for client connections...
+[2026-05-19 17:26:56] [INFO ] [GameServer] Shutting down...
+[2026-05-19 17:26:56] [INFO ] [DatabaseManager] Database connection closed.
+[2026-05-19 17:26:56] [INFO ] [GameServer] Server shutdown complete.
+[2026-05-19 17:27:00] [INFO ] [DatabaseManager] Connected to SQLite database.
+[2026-05-19 17:27:00] [INFO ] [DatabaseManager] Schema verified/created.
+[2026-05-19 17:27:00] [INFO ] [GameLoader] Seeded game: Shadow Realms
+[2026-05-19 17:27:00] [INFO ] [GameLoader] Seeded game: Turbo Racers 3D
+[2026-05-19 17:27:00] [INFO ] [GameLoader] Seeded game: Pixel Dungeon X
+[2026-05-19 17:27:00] [INFO ] [GameLoader] Seeded game: StarFleet Command
+[2026-05-19 17:27:00] [INFO ] [GameLoader] Loaded 4 game(s) from files.
+[2026-05-19 17:27:00] [INFO ] [GameServer] Server started on port 9090 | Thread pool size: 10
+[2026-05-19 17:27:00] [INFO ] [GameServer] Waiting for client connections...
+[2026-05-19 17:28:13] [INFO ] [GameServer] Shutting down...
+[2026-05-19 17:28:13] [INFO ] [DatabaseManager] Database connection closed.
+[2026-05-19 17:28:13] [INFO ] [GameServer] Server shutdown complete.
+[2026-05-19 17:28:34] [INFO ] [DatabaseManager] Connected to SQLite database.
+[2026-05-19 17:28:34] [INFO ] [DatabaseManager] Schema verified/created.
+[2026-05-19 17:28:34] [INFO ] [GameLoader] Seeded game: Shadow Realms
+[2026-05-19 17:28:34] [INFO ] [GameLoader] Seeded game: Turbo Racers 3D
+[2026-05-19 17:28:34] [INFO ] [GameLoader] Seeded game: Pixel Dungeon X
+[2026-05-19 17:28:34] [INFO ] [GameLoader] Seeded game: StarFleet Command
+[2026-05-19 17:28:34] [INFO ] [GameLoader] Loaded 4 game(s) from files.
+[2026-05-19 17:28:34] [INFO ] [GameServer] Server started on port 9090 | Thread pool size: 10
+[2026-05-19 17:28:34] [INFO ] [GameServer] Waiting for client connections...
+[2026-05-19 17:29:11] [INFO ] [GameServer] Accepted client #1 from /127.0.0.1:41208
+[2026-05-19 17:29:11] [INFO ] [ClientHandler-1] New connection from /127.0.0.1:41208
+[2026-05-19 17:29:11] [INFO ] [GameClient] Connected to localhost:9090
+[2026-05-19 17:30:07] [INFO ] [ClientHandler-1] Processing: REGISTER
+[2026-05-19 17:30:07] [INFO ] [ClientHandler-1] Registered user: ali
+[2026-05-19 17:30:23] [INFO ] [ClientHandler-1] Processing: LOGIN
+[2026-05-19 17:30:23] [INFO ] [ClientHandler-1] Logged in: ali
+[2026-05-19 17:30:29] [INFO ] [ClientHandler-1] Processing: LIST_GAMES
+[2026-05-19 17:30:57] [INFO ] [ClientHandler-1] Processing: DOWNLOAD_REQUEST
+[2026-05-19 17:30:57] [INFO ] [ClientHandler-1] Charged $29.99 to ali for Shadow Realms
+[2026-05-19 17:30:57] [INFO ] [ClientHandler-1] ali downloaded Shadow Realms
+[2026-05-19 17:31:22] [INFO ] [ClientHandler-1] Processing: GET_BALANCE
+[2026-05-19 17:31:38] [INFO ] [ClientHandler-1] Processing: GAME_DETAIL
+[2026-05-19 17:31:52] [ERROR] [GameClient] Disconnect error: Socket closed
+[2026-05-19 17:31:52] [INFO ] [ClientHandler-1] Client disconnected.
+[2026-05-19 17:31:52] [ERROR] [GameClient] Disconnect error: Socket closed
+[2026-05-19 17:31:52] [INFO ] [ClientHandler-1] Resources closed.
+[2026-05-19 17:39:55] [INFO ] [GameServer] Shutting down...
+[2026-05-19 17:39:55] [INFO ] [DatabaseManager] Database connection closed.
+[2026-05-19 17:39:55] [INFO ] [GameServer] Server shutdown complete.
+[2026-05-19 21:10:13] [ERROR] [GameClient] Could not connect to server: Connection refused: connect
+[2026-05-19 21:10:25] [INFO ] [DatabaseManager] Connected to SQLite database.
+[2026-05-19 21:10:25] [INFO ] [DatabaseManager] Schema verified/created.
+[2026-05-19 21:10:25] [INFO ] [GameLoader] Seeded game: Shadow Realms
+[2026-05-19 21:10:25] [INFO ] [GameLoader] Seeded game: Turbo Racers 3D
+[2026-05-19 21:10:25] [INFO ] [GameLoader] Seeded game: Pixel Dungeon X
+[2026-05-19 21:10:25] [INFO ] [GameLoader] Seeded game: StarFleet Command
+[2026-05-19 21:10:25] [INFO ] [GameLoader] Loaded 4 game(s) from files.
+[2026-05-19 21:10:25] [INFO ] [GameServer] Server started on port 9090 | Thread pool size: 10
+[2026-05-19 21:10:25] [INFO ] [GameServer] Waiting for client connections...
+[2026-05-19 21:10:35] [INFO ] [GameServer] Accepted client #1 from /127.0.0.1:57186
+[2026-05-19 21:10:35] [INFO ] [ClientHandler-1] New connection from /127.0.0.1:57186
+[2026-05-19 21:10:35] [INFO ] [GameClient] Connected to localhost:9090
+[2026-05-19 21:10:46] [INFO ] [GameServer] Shutting down...
+[2026-05-19 21:10:46] [INFO ] [ClientHandler-1] Client disconnected.
+[2026-05-19 21:10:46] [INFO ] [ClientHandler-1] Resources closed.
+[2026-05-19 21:10:46] [INFO ] [DatabaseManager] Database connection closed.
+[2026-05-19 21:10:46] [INFO ] [GameServer] Server shutdown complete.
+[2026-05-19 21:18:21] [INFO ] [DatabaseManager] Connected to SQLite database.
+[2026-05-19 21:18:21] [INFO ] [DatabaseManager] Schema verified/created.
+[2026-05-19 21:18:21] [INFO ] [GameLoader] Seeded game: Shadow Realms
+[2026-05-19 21:18:21] [INFO ] [GameLoader] Seeded game: Turbo Racers 3D
+[2026-05-19 21:18:21] [INFO ] [GameLoader] Seeded game: Pixel Dungeon X
+[2026-05-19 21:18:21] [INFO ] [GameLoader] Seeded game: StarFleet Command
+[2026-05-19 21:18:21] [INFO ] [GameLoader] Loaded 4 game(s) from files.
+[2026-05-19 21:18:21] [INFO ] [GameServer] Server started on port 9090 | Thread pool size: 10
+[2026-05-19 21:18:21] [INFO ] [GameServer] Waiting for client connections...
+[2026-05-19 21:18:42] [INFO ] [GameServer] Accepted client #1 from /127.0.0.1:60886
+[2026-05-19 21:18:42] [INFO ] [ClientHandler-1] New connection from /127.0.0.1:60886
+[2026-05-19 21:18:42] [INFO ] [GameClient] Connected to localhost:9090
+[2026-05-19 21:19:15] [INFO ] [ClientHandler-1] Processing: REGISTER
+[2026-05-19 21:19:15] [INFO ] [ClientHandler-1] Registered user: ab
+[2026-05-19 21:19:34] [INFO ] [ClientHandler-1] Processing: LOGIN
+[2026-05-19 21:19:34] [INFO ] [ClientHandler-1] Logged in: ab
+[2026-05-19 21:20:02] [INFO ] [ClientHandler-1] Processing: DOWNLOAD_REQUEST
+[2026-05-19 21:20:02] [INFO ] [ClientHandler-1] Charged $19.99 to ab for Turbo Racers 3D
+[2026-05-19 21:20:02] [INFO ] [ClientHandler-1] ab downloaded Turbo Racers 3D
+[2026-05-19 21:20:16] [INFO ] [ClientHandler-1] Processing: LIST_GAMES
+[2026-05-19 21:25:14] [INFO ] [GameServer] Shutting down...
+[2026-05-19 21:25:15] [INFO ] [ClientHandler-1] Client disconnected.
+[2026-05-19 21:25:15] [INFO ] [ClientHandler-1] Resources closed.
+[2026-05-19 21:25:15] [INFO ] [DatabaseManager] Database connection closed.
+[2026-05-19 21:25:15] [INFO ] [GameServer] Server shutdown complete.
+[2026-05-19 21:27:40] [INFO ] [DatabaseManager] Connected to SQLite database.
+[2026-05-19 21:27:40] [INFO ] [DatabaseManager] Schema verified/created.
+[2026-05-19 21:27:43] [ERROR] [GameLoader] DB insert failed for Shadow Realms: [SQLITE_BUSY] The database file is locked (database is locked)
+[2026-05-19 21:27:46] [ERROR] [GameLoader] DB insert failed for Turbo Racers 3D: [SQLITE_BUSY] The database file is locked (database is locked)
+[2026-05-19 21:27:49] [ERROR] [GameLoader] DB insert failed for Pixel Dungeon X: [SQLITE_BUSY] The database file is locked (database is locked)
+[2026-05-19 21:27:53] [INFO ] [GameLoader] Seeded game: StarFleet Command
+[2026-05-19 21:27:53] [INFO ] [GameLoader] Loaded 4 game(s) from files.
+[2026-05-19 21:27:53] [INFO ] [GameServer] Server started on port 9090 | Thread pool size: 10
+[2026-05-19 21:27:53] [INFO ] [GameServer] Waiting for client connections...
+[2026-05-19 21:28:00] [INFO ] [GameServer] Accepted client #1 from /127.0.0.1:59908
+[2026-05-19 21:28:00] [INFO ] [ClientHandler-1] New connection from /127.0.0.1:59908
+[2026-05-19 21:28:00] [INFO ] [GameClient] Connected to localhost:9090
+[2026-05-19 21:28:07] [INFO ] [ClientHandler-1] Processing: LIST_GAMES
+[2026-05-19 21:28:37] [INFO ] [ClientHandler-1] Processing: LOGIN
+[2026-05-19 21:28:37] [INFO ] [ClientHandler-1] Logged in: ab
+[2026-05-19 21:28:59] [INFO ] [ClientHandler-1] Processing: DOWNLOAD_REQUEST
+[2026-05-19 21:28:59] [INFO ] [ClientHandler-1] Charged $29.99 to ab for Shadow Realms
+[2026-05-19 21:28:59] [INFO ] [ClientHandler-1] ab downloaded Shadow Realms
+[2026-05-19 21:32:59] [INFO ] [GameServer] Shutting down...
+[2026-05-19 21:32:59] [INFO ] [ClientHandler-1] Client disconnected.
+[2026-05-19 21:32:59] [INFO ] [ClientHandler-1] Resources closed.
+[2026-05-19 21:32:59] [INFO ] [DatabaseManager] Database connection closed.
+[2026-05-19 21:32:59] [INFO ] [GameServer] Server shutdown complete.

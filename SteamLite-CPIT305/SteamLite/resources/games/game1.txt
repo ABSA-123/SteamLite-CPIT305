@@ -1,0 +1,5 @@
+title=Shadow Realms
+developer=Phantom Studios
+genre=RPG
+price=29.99
+description=An epic open-world RPG set in a dark fantasy universe.

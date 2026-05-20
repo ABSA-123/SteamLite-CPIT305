@@ -1,0 +1,5 @@
+title=StarFleet Command
+developer=Orbital Interactive
+genre=Strategy
+price=39.99
+description=Command your fleet across the galaxy in this real-time space strategy game.

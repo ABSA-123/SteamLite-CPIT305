@@ -1,0 +1,32 @@
+[2026-05-19 01:05:03] [ERROR] [GameClient] Could not connect to server: Connection refused: connect
+[2026-05-19 01:13:10] [INFO ] [DatabaseManager] Connected to SQLite database.
+[2026-05-19 01:13:10] [INFO ] [DatabaseManager] Schema verified/created.
+[2026-05-19 01:13:10] [WARN ] [GameLoader] Games directory not found: resources\games
+[2026-05-19 01:13:10] [INFO ] [GameServer] Server started on port 9090 | Thread pool size: 10
+[2026-05-19 01:13:10] [INFO ] [GameServer] Waiting for client connections...
+[2026-05-19 01:13:29] [INFO ] [GameServer] Accepted client #1 from /127.0.0.1:38132
+[2026-05-19 01:13:29] [INFO ] [ClientHandler-1] New connection from /127.0.0.1:38132
+[2026-05-19 01:13:29] [INFO ] [GameClient] Connected to localhost:9090
+[2026-05-19 01:15:11] [INFO ] [ClientHandler-1] Processing: REGISTER
+[2026-05-19 01:15:11] [INFO ] [ClientHandler-1] Registered user: A
+[2026-05-19 01:16:20] [INFO ] [ClientHandler-1] Processing: LOGIN
+[2026-05-19 01:16:20] [INFO ] [ClientHandler-1] Logged in: A
+[2026-05-19 01:16:24] [INFO ] [ClientHandler-1] Processing: LIST_GAMES
+[2026-05-19 01:16:58] [INFO ] [GameServer] Shutting down...
+[2026-05-19 01:17:08] [WARN ] [GameServer] Forced thread pool shutdown after timeout.
+[2026-05-19 01:17:08] [INFO ] [DatabaseManager] Database connection closed.
+[2026-05-19 01:17:08] [INFO ] [GameServer] Server shutdown complete.
+[2026-05-19 17:14:11] [INFO ] [DatabaseManager] Connected to SQLite database.
+[2026-05-19 17:14:11] [INFO ] [DatabaseManager] Schema verified/created.
+[2026-05-19 17:14:11] [WARN ] [GameLoader] Games directory not found: resources\games
+[2026-05-19 17:14:11] [INFO ] [GameServer] Server started on port 9090 | Thread pool size: 10
+[2026-05-19 17:14:11] [INFO ] [GameServer] Waiting for client connections...
+[2026-05-19 17:25:58] [INFO ] [GameServer] Shutting down...
+[2026-05-19 17:25:58] [INFO ] [DatabaseManager] Database connection closed.
+[2026-05-19 17:25:58] [INFO ] [GameServer] Server shutdown complete.
+[2026-05-19 21:34:58] [INFO ] [DatabaseManager] Connected to SQLite database.
+[2026-05-19 21:34:58] [INFO ] [DatabaseManager] Schema verified/created.
+[2026-05-19 21:34:58] [INFO ] [DatabaseManager] Database connection closed.
+[2026-05-19 21:34:58] [INFO ] [DatabaseManager] Connected to SQLite database.
+[2026-05-19 21:34:58] [INFO ] [DatabaseManager] Schema verified/created.
+[2026-05-19 21:34:58] [INFO ] [DatabaseManager] Database connection closed.
