@@ -1,6 +1,6 @@
 # Steam Lite
 
-Steam Lite is a small multi-user game library platform inspired by Steam, built in Java to demonstrate networking, multithreading, file I/O streams, and database programming with JDBC.
+Steam Lite is a CPIT-305 Advanced Programming final project. It is a small multi-user game library platform inspired by Steam, built in Java to demonstrate networking, multithreading, file I/O streams, and database programming with JDBC.
 
 The application uses a client-server architecture. A TCP server manages users, the game catalog, wallet balances, and downloads, while an interactive command-line client lets users register, log in, browse games, buy games, download game files, and check their balance.
 
@@ -34,42 +34,6 @@ The application uses a client-server architecture. A TCP server manages users, t
 - SQLite JDBC
 - SLF4J Simple
 
-## Project Structure
-
-```text
-SteamLite/
-+-- pom.xml
-+-- README.md
-+-- resources/
-|   +-- games/
-|       +-- game1.txt
-|       +-- game1.bin
-|       +-- ...
-+-- downloads/
-+-- src/main/java/steamlite/
-|   +-- client/
-|   |   +-- GameClient.java
-|   +-- db/
-|   |   +-- DatabaseManager.java
-|   +-- model/
-|   |   +-- Game.java
-|   |   +-- Message.java
-|   |   +-- UserAccount.java
-|   +-- server/
-|   |   +-- ClientHandler.java
-|   |   +-- GameServer.java
-|   +-- tests/
-|   |   +-- SteamLiteTests.java
-|   +-- util/
-|       +-- GameLoader.java
-|       +-- Logger.java
-|       +-- PasswordUtil.java
-+-- target/
-    +-- SteamLite-Server.jar
-    +-- SteamLite-Client.jar
-    +-- SteamLite-Tests.jar
-```
-
 ## Prerequisites
 
 - Java 21 or newer
@@ -83,7 +47,7 @@ From the `SteamLite` folder, run:
 mvn clean package
 ```
 
-The Maven build creates three runnable JAR files:
+This creates:
 
 - `target/SteamLite-Server.jar`
 - `target/SteamLite-Client.jar`
@@ -91,13 +55,11 @@ The Maven build creates three runnable JAR files:
 
 ## Run the Server
 
-Start the server first:
-
 ```bash
 java -jar target/SteamLite-Server.jar
 ```
 
-The server starts on port `9090`. On startup, it creates or opens `steamlite.db`, creates the required database tables, and loads the game catalog from `resources/games`.
+The server starts on port `9090`, creates or opens `steamlite.db`, creates the database tables, and loads the game catalog from `resources/games`.
 
 ## Run the Client
 
@@ -107,22 +69,10 @@ Open another terminal and run:
 java -jar target/SteamLite-Client.jar
 ```
 
-By default, the client connects to:
-
-```text
-localhost:9090
-```
-
 To connect to a different host or port:
 
 ```bash
 java -jar target/SteamLite-Client.jar <host> <port>
-```
-
-Example:
-
-```bash
-java -jar target/SteamLite-Client.jar localhost 9090
 ```
 
 ## Client Commands
@@ -139,82 +89,13 @@ java -jar target/SteamLite-Client.jar localhost 9090
 | `help` | Show the command menu. |
 | `quit` | Exit the client. |
 
-## Example Usage
-
-```text
-steamlite> register alice pass123 2000-01-01
-Account created for alice. You may now log in.
-
-steamlite> login alice pass123
-Welcome back, alice! Balance: $100.00
-
-steamlite> list
-=== Game Catalog ===
-[1] Shadow Realms | Phantom Studios | RPG | $29.99
-
-steamlite> detail 1
-[1] Shadow Realms | Phantom Studios | RPG | $29.99
-
-steamlite> download 1
-Downloading: Shadow Realms
-[####################] 100%
-Download complete.
-
-steamlite> balance
-Balance: $70.01
-```
-
 ## Run Tests
-
-After building the project, run:
 
 ```bash
 java -jar target/SteamLite-Tests.jar
 ```
 
-The tests cover:
-
-- Password hashing
-- Account registration and login
-- Game insertion and retrieval
-- Balance deduction
-- Download recording and download counts
-
-## Database
-
-Steam Lite uses a local SQLite database named:
-
-```text
-steamlite.db
-```
-
-The database contains three main tables:
-
-- `Games`: stores game catalog information.
-- `Accounts`: stores user accounts, password hashes, dates of birth, and wallet balances.
-- `Downloads`: stores which users downloaded which games and how many times.
-
-The schema is created automatically when the server starts.
-
-## Game Resource Files
-
-Game metadata is stored in text files under:
-
-```text
-resources/games
-```
-
-Each metadata file uses this format:
-
-```text
-title=Shadow Realms
-developer=Phantom Studios
-genre=RPG
-price=29.99
-description=An epic open-world RPG set in a dark fantasy universe.
-```
-
-Each game also has a matching `.bin` file that represents the downloadable game asset. If the asset file is missing, the project can create a simulated binary asset automatically.
+The tests cover password hashing, account registration and login, game retrieval, balance deduction, and download history.
 
 ## Notes
 
@@ -224,3 +105,8 @@ Each game also has a matching `.bin` file that represents the downloadable game 
 - New users start with a default wallet balance of `$100.00`.
 - Re-downloading an already owned game does not deduct the balance again.
 
+## Course
+
+CPIT-305 Advanced Programming  
+King Abdulaziz University  
+Faculty of Computing and Information Technology
